@@ -1,0 +1,280 @@
+body{
+	margin: 0px;
+	background: #14edd7;
+}
+header{	
+	height: 120px;
+	width: 100%;
+	background: #ffe030;
+	display: flex;
+	justify-content: space-between;
+	margin: 0px;
+  font-family: 'Kaushan Script', cursive;
+  /*text-shadow: 3px 3px 0px #ffe8b0;*/
+  /*font-family: 'Lobster', cursive;*/
+  /*font-family: 'Dancing Script', cursive;*/
+  /*font-family: 'Permanent Marker', cursive;*/
+
+}
+article{
+  text-align: justify;
+
+}
+article div{
+	padding: 10px;
+	font-size: 20px;
+	font-family: 'Dosis', sans-serif;
+
+}
+h1{
+	font-size: 40px;
+	font-family: sans-serif;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  background: url(../img/background.png) no-repeat;
+  background-size: cover;
+  height: 200px;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color: #1A1A37;
+}
+strong{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 40px;
+}
+.footer-items{
+  margin: 40px;
+  background: rgba(255, 255, 255, 0.8);
+  font-family: sans-serif;
+  font-size: 25px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.intro{
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  color: #14edd7;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 80%
+
+}
+#logo{
+	padding-top: 5px;
+	width: 150px;
+	height: 110px;
+}
+#titre{
+	font-size: 50px;
+	align-self: center;
+}
+.titre{
+	display: flex;
+	justify-content: flex-start;
+}
+.menu-items{
+	background: white;
+	color: #1A1A37;
+	padding: 35px 5px 35px 5px;
+	font-size: 40px;
+	margin-right: 5px;
+	margin-left: 5px;
+	font-family: 'Lobster', cursive;
+	border-radius: 30px;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.yellow:hover{
+	background: #fcc734;
+}
+.blue:hover{
+	background: #14edd7;
+}
+.pink:hover{
+	background: #f37e83;
+}
+a:hover{
+	color: white;
+}
+
+article a{
+	color: rgba(0,0,0,0);
+	margin-top: 50px;
+
+}
+article a:hover{
+	color: #14edd7;
+	background: rgba(255,255,255,0.9);
+	padding: 50px;
+	border-radius: 300px;
+	margin-top: 50px;
+}
+footer a:hover{
+  color: #14edd7;
+}
+.wrap{
+	padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  display: flex;
+  color: white;
+  text-align: justify;
+
+}
+.wrap-item1{
+	background: url(../img/bad-turnip.png) no-repeat;
+	background-size: contain;
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+} 
+.wrap-item2{
+	background: url(../img/passe-minuit.png) no-repeat;
+	background-size: contain;
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+} 
+.wrap-item3{
+	background: url(../img/scolaire.png) no-repeat;
+	background-size: contain;
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+} 
+.wrap-item4{
+	background: url(../img/bde.png) no-repeat;
+	background-size: contain;
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 300px;
+} 
+.wrap-item5{
+	background: url(../img/pro.png) no-repeat;
+	background-size: contain;
+  padding: 30px;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 300px;
+} 
+.wrap-item1:hover{
+	background: url(../img/bad-turnip.png) no-repeat;
+	background-size: contain;
+  padding: 10px;
+  width: 400px;
+  height: 400px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 29px;
+  text-align: center;
+  border-radius: 300px;
+} 
+.wrap-item2:hover{
+	background: url(../img/passe-minuit.png) no-repeat;
+	background-size: contain;
+  padding: 10px;
+  width: 400px;
+  height: 400px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 29px;
+  text-align: center;
+} 
+.wrap-item3:hover{
+	background: url(../img/scolaire.png) no-repeat;
+	background-size: contain;
+  padding: 5px;
+  width: 400px;
+  height: 400px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 29px;
+  text-align: center;
+} 
+.wrap-item4:hover{
+	background: url(../img/bde.png) no-repeat;
+	background-size: contain;
+  padding: 10px;
+  width: 400px;
+  height: 400px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 29px;
+  text-align: center;
+  border-radius: 300px;
+} 
+.wrap-item5:hover{
+	background: url(../img/pro.png) no-repeat;
+	background-size: contain;
+  padding: 30px;
+  width: 400px;
+  height: 400px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 29px;
+  text-align: center;
+  border-radius: 300px;
+} 
