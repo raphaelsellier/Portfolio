@@ -15,7 +15,7 @@ header{
 
 }
 article{
-	display: flex;
+	/*display: flex;*/
 	color: white;
 	text-align: justify;
 	margin: 20px;
@@ -45,6 +45,9 @@ a{
 strong{
   font-family: 'Kaushan Script', cursive;
   font-size: 40px;
+}
+article img{
+	width: 100%;
 }
 .footer-items{
   margin: 40px;
